@@ -75,20 +75,6 @@ cd spotify-clone-frontend
 
 You can also use the **Live Server** extension in VS Code for a better development experience.
 
-## Important Note Before Uploading
-
-If your project contains a local audio file path like this:
-
-```html
-<source src="F:\Bharat\Songs\song-name.mp3" type="audio/mpeg">
-```
-
-Replace it with a relative path before uploading to GitHub:
-
-```html
-<source src="./assets/song.mp3" type="audio/mpeg">
-```
-
 Local system paths will not work after uploading the project to GitHub or deploying it online.
 
 ## Future Improvements
@@ -112,14 +98,6 @@ Through this project, I practiced:
 - Using external fonts and icons
 - Designing dark theme UI
 - Improving frontend development fundamentals
-
-## Screenshots
-
-Add your project screenshot here:
-
-```markdown
-![Spotify Clone Screenshot](./assets/screenshot.png)
-```
 
 ## Author
 
